@@ -1,0 +1,51 @@
+@import './base.css';
+
+.poppins-400 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-500 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.poppins-600 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.urbanist-700 {
+  font-family: Urbanist, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ubuntu-400 {
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 154.545% */
+}
+
+@layer components {
+  .block-container {
+    @apply 2xl:mx-56 xl:mx-32 md:mx-16 mx-2;
+  }
+}
+
+.slide-fade-enter-active, .slide-fade-leave-active {
+  transition: opacity 0.5s, transform 0.5s;
+}
+.slide-fade-enter, .slide-fade-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+.slide-content {
+  transform: translateX(0);
+}
