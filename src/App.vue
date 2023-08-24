@@ -1,29 +1,30 @@
 <template>
   <div class="relative">
     <img
-      src="./images/bg.svg"
-      class="absolute -top-56 right-0 h-full w-full select-none object-cover"
+      src="./images/bg2.svg"
+      class="absolute -top-0 right-0 h-full w-full select-none object-cover"
       alt=""
     />
     <img
       src="./images/bg-color.webp"
-      class="absolute -top-56 right-0 h-full w-full z-20 select-none object-cover"
+      class="absolute top-0 right-0 h-full w-full z-20 select-none object-cover"
       alt=""
     />
     <NavHeader />
+    <div class="circle absolute bottom-1 right-0"></div>
 
-    <main class="block-container">
+    <main>
       <FirstPage />
       <AdvantagesPage />
-<!--      <RulesPage />-->
-<!--      <PricePage />-->
-<!--      <VideoPage />-->
-<!--      <GalleryPage />-->
-<!--      <ContactPage />-->
-<!--      <ReviewPage />-->
+      <RulesPage />
+      <PricePage />
+      <VideoPage />
+      <GalleryPage />
+      <ContactPage />
+      <ReviewPage />
     </main>
 
-<!--    <FooterPage />-->
+    <FooterPage />
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <section id="main">
+  <section id="main" class="block-container relative z-40">
     <div class="relative overflow-hidden xl:pt-8 pt-16 mb-20">
       <div class="md:flex justify-between items-center">
         <div class="flex flex-col w-full">
@@ -20,3 +20,4 @@
     </div>
   </section>
 </template>
+<script setup></script>
